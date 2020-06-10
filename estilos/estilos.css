@@ -1,0 +1,347 @@
+body{
+margin:0;
+padding: 0;
+}
+h3{
+color: rgba(225, 94, 230, 1);       
+}
+.pe{
+color: blue;  
+}
+.bot{
+margin-left: 350px;
+
+}
+#principal{
+width: 100%;
+margin: auto;
+height: auto;
+background-color:rgba(175, 216, 236, 0.8);
+
+}
+header{
+width: 100%;
+margin: auto;
+height: 290px;
+background: url(../imagenes/diferencia_perfume_colonia.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#Pmenu{
+width:100%;
+background: steelblue;
+margin-top:-16px;
+padding: 0px;
+}
+#btn-menu{
+display:none;
+}
+#Pmenu label{
+display:none;
+height: 30px;
+width: 30px;
+padding: 10px;
+border-right: 1px;
+}
+#Pmenu label:hover{
+cursor:pointer;
+background: rgba(0,0,0,0.3);
+}
+.menu ul{
+list-style: none;
+padding: 0;
+display: flex;
+}
+.menu li{
+flex:auto;    
+border-right: 1px solid rgba(0,0,0,0.2);
+}
+.menu li:hover{
+background: rgba(225, 94, 230, 1);      
+}
+.menu li a {
+display: block;
+text-decoration: none;
+color: #fff;
+padding: 15px 20px;
+}
+#filtro{
+margin-left:300px;
+}
+#filtro label{
+color: rgba(225, 94, 230, 1);  
+}
+#catalogo{
+width: 80%;
+height:auto;
+display: flex;
+margin-top: 80px;
+margin-left: 120px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.pro{
+width:200px;
+border: 2px solid rgba(225, 94, 230, 1);  
+border-radius: 20px;
+height: auto;
+overflow: hidden;
+margin:10px;
+color: steelblue;
+}
+#pie{
+width: 100%;
+height: 100px;
+background-color: steelblue;
+}
+#pielogin{
+width: 100%;
+height: 100px;
+background-color: steelblue;
+margin-top: 100px;
+}
+
+/*pagina principal*/
+#marco{
+width: 80%;
+height:auto;
+display: flex;
+margin-top: 80px;
+margin-left: 180px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+#interior1, #interior2, #texto1, #texto2{
+width:300px;
+height: auto;
+overflow: hidden;
+margin: 10px;
+height: 200px;
+}
+#interior1{
+background: url(../imagenes/principal1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border: 2px solid rgba(225, 94, 230, 1);  
+
+}
+#interior2{
+background: url(../imagenes/principal2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+border: 2px solid rgba(225, 94, 230, 1);  
+
+}
+#texto1, #texto2{
+color:  steelblue;
+}
+#marco h3{
+color: rgba(225, 94, 230, 1);
+}
+/*pagina principal administrador*/
+.admin{ 
+color: rgba(225, 94, 230, 1);  
+margin-left: 300px;
+}
+
+.admin1{ 
+color:  steelblue;
+margin-left: 300px;
+}
+    
+
+/*todas tablas de la web*/
+
+/*tabla perfil*/
+.perfil{
+margin-left: 150px;
+}
+.tperfil{
+text-align: left;
+color: steelblue;
+}
+.nom{
+    color: rgba(225, 94, 230, 1);
+}
+
+.resul{
+    color: steelblue;
+}
+/*tabla pedidos perfil*/
+#tablaperfil{
+margin-left: 150px;
+}
+.tablaperfil{
+text-align: center;
+border-collapse: collapse;
+}
+.tablaperfil th{
+background-color: rgba(225, 94, 230, 1);
+color: white;
+}
+.tablaperfil td{
+color:steelblue;
+}
+/*tabla detalle*/
+.dtabla{
+text-align: center;
+border-collapse: collapse;
+}
+.dtabla th{
+background-color: rgba(225, 94, 230, 1);
+color: white;
+}
+.dtabla td{
+color:steelblue;
+}
+.ttabla{
+margin-left:200px;
+}
+/* todos los formularios*/
+.formuregi, .formulogi{
+background-color: steelblue;
+border-radius: 3px;
+color: white;
+font-size: 1em;
+padding: 20px;
+margin: 0 auto;
+width: 300px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.formuregi h3{
+color: rgba(225, 94, 230, 1);
+}
+.field{
+border: solid 1px rgba(225, 94, 230, 1);
+padding: 10px;
+}
+.field:focus{
+border-color: rgba(225, 94, 230, 1);
+}
+
+/*botones*/
+.btn{
+border-radius: 3px;
+display: inline-block;
+padding: 10px 10px;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+
+.btn-blue{
+color: white;
+background-color: steelblue;
+}
+.btn-blue:hover{
+background-color: rgba(225, 94, 230, 1);;	
+}
+.btn-blue:active{
+background-color: steelblue;
+}
+
+/* botones enlaces*/
+
+/*paginador*/
+#paginador{
+align-items: center;
+justify-content: center;	
+margin-left:-200px;
+display:flex;
+}
+.enlace{	
+margin: 5px;
+border: 1px solid;
+width:30px;
+height:30px;
+margin:3px;
+border-radius:100%;
+vertical-align: middle;
+text-align: center;
+background-color:steelblue;
+color:white;
+}
+.enlace:hover{
+background-color:rgba(225, 94, 230, 1);
+color:white;
+}
+
+.activado{	
+margin: 5px;
+border: 1px solid;
+width:30px;
+height:30px;
+margin:5px;
+border-radius:100%;
+vertical-align: middle;
+text-align: center;
+background-color:rgba(225, 94, 230, 1);
+color:white;
+}
+
+
+
+/*Para tablets y móviles*/
+@media (max-width: 768px){
+#Pmenu label{
+display: block;
+}
+.menu{
+position: absolute;
+background: steelblue;
+width:70%;
+margin-left:-70%;
+transition: all 0.5s;
+}
+.menu ul {
+flex-direction: column;
+}
+.menu li{
+border-top: 1px solid rgba(0,0,0,0.2);
+}
+#btn-menu:checked ~ .menu{
+margin: 0;
+}
+#catalogo{
+width: 80%;
+height:auto;
+display: flex;
+margin-top: 80px;
+margin-left: 120px;
+height:auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.pro{
+width: 200px;
+border:2px solid rgba(225, 94, 230, 1);  
+height: auto;
+overflow: hidden;
+margin:15px;
+color: steelblue;
+}
+#marco{
+width: 80%;
+height:auto;
+display: flex;
+margin-top: 80px;
+margin-left: 100px;
+flex-direction: column;
+align-items: left;
+}
+/* todas las tablas de la web*/
+
+/*tabla perfil pedidos*/
+.tablaperfil{
+display: block;
+overflow-x: auto;
+}
+/*tabla detalle perfil*/
+.dtabla{
+display: block;
+overflow-x: auto;
+}
+
+}

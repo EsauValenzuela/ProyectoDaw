@@ -1,0 +1,241 @@
+
+
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+} 
+
+  
+
+
+header{
+width: 100%;
+height: 250px;
+ 
+
+}
+#fondo{
+  width: 100%;
+  height: 100%;
+  background-image: url(../imagenes/diferencia_perfume_colonia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu{
+padding-left:0px;
+margin-bottom: 0;
+list-style: none;
+background: steelblue;
+margin-top:-10px;
+}
+
+
+.formuRegi{
+width:500px;
+background-color: rgba(225, 94, 230, .3);
+margin: auto;
+
+}
+
+
+.formuRegi p{
+ 
+  color:steelblue;
+  margin: auto;
+  
+  }
+
+h3{
+  color: rgba(225, 94, 230, .5);
+  margin-left: 300px;
+  
+
+
+}
+
+@media only screen and  (min-width: 768px){
+    .menu{
+    display: flex;
+    
+    
+ 
+    }
+
+
+
+    #fondo{
+      width: 100%;
+      height: 100%;
+      background-image: url(../imagenes/diferencia_perfume_colonia.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .menu li{
+    flex: auto;
+    text-align: center;
+  border-right: 1px solid rgba(0,0,0,0.2);
+   
+    }
+
+    #toggle-menu{
+        background: steelblue;
+        line-height: 2.5;
+        color: aliceblue;
+        padding: left;
+        font-size: .9em;
+        cursor: pointer;
+        display:none;
+    }
+
+    #principal{
+      width: 100%;
+      border: 1px solid;
+      margin: auto;
+      height: 1000px;
+    
+      
+      }
+
+    #contenido{
+     width: 100%;
+     height:600px;
+     margin-top:100px;
+      
+        
+        
+        }
+
+    #catalogo{
+    width: 100%;
+    border: 1px solid;
+    height:auto;
+    display: flex;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+        
+        
+        }
+      
+      .pro{
+      width:200px;
+      border: 1px solid;
+      height: auto;
+      overflow: hidden;
+      margin:5px;
+            
+            
+      }
+   
+
+    }
+
+
+
+
+.menu a{
+color: aliceblue;
+text-decoration: none;
+line-height: 3;
+display: block;
+font-weight: bold;
+font-size: .9em;
+}
+.menu a:hover{
+background: rgba(0,0,0,0.2);
+}
+.menu li {
+
+
+border-bottom: 1px solid rgba(0,0,0,0.2);   
+
+}
+
+
+#toggle-menu{
+background: steelblue;
+line-height: 2.5;
+color: aliceblue;
+padding: left;
+font-size: .9em;
+cursor: pointer;
+
+
+}
+
+header{
+  width: 100%;
+  height: 300px;
+
+
+}
+
+
+
+@media only screen and  (max-width: 768px){
+
+  #principal{
+    width: 80%;
+    border: 1px solid;
+    margin: auto;
+    
+    height: 1700px;
+  
+    
+    }
+
+
+
+
+  #contenido{
+    width: 100%;
+    border: 1px solid;
+    margin-top:350px;
+
+    height: 900px;
+    
+    
+    
+    }
+#catalogo{
+width: 100%;
+margin-top:0px;
+border: 1px solid;
+height:auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+/*background-color: blueviolet;*/
+  
+  }
+
+.pro{
+width: 200px;
+border: 1px solid;
+height: auto;
+overflow: hidden;
+
+margin:15px;
+      
+      
+      }
+    }   
+
+  #paginador{
+   background-color: azure;
+    margin-top:10px;
+    
+    
+    }
+
+    
+#filtro{
+  background-color: bisque;
+  margin-top:50px;
+  
+  
+  }
